@@ -6,7 +6,7 @@
 
 Description
 ----------
-This code provides the fusion of PANchromatic (PAN) and MultiSpectral (MS) images using fractional-order differentation. The steps for fusion is as follows: 
+This code provides the fusion of PANchromatic (PAN) and MultiSpectral (MS) images using fractional-order differentation. The steps for fusion are as follows: 
 
     1) Loading the dataset from its path,
     
