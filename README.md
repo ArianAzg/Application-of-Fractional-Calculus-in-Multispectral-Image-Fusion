@@ -6,7 +6,7 @@
 
 Description
 ----------
-This code provides the fusion of PANchromatic (PAN) and MultiSpectral (MS) images using the Particle Swarm Optimization (PSO) algorithm. The steps for fusion is as follows: 
+This code provides the fusion of PANchromatic (PAN) and MultiSpectral (MS) images using fractional-order differentation. The steps for fusion is as follows: 
 
     1) Loading the dataset from its path,
     
@@ -19,8 +19,6 @@ This code provides the fusion of PANchromatic (PAN) and MultiSpectral (MS) image
     5) Applying the created mask into the primitive detail map to obtain the refined map.
 
 
-
-
 Usage
 ------------
 First you need to specify the path of your dataset.
@@ -28,7 +26,7 @@ For example:
 
     addpath QuickBird_Data
     
-
+The main code for this method is the FDIF.m which consists of pre-processing steps as well as obtaining the fusion results. The superimposed mask is created in another M-file called FractionalDiff. 
 To _run_ the code, in the _command window_ use this: 
 
     FDIF.m
